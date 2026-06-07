@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Checkpoints y modelos entrenados
+checkpoints*/
+latents/
+
+# Tensores preprocesados
+preprocessed/
+*.pt
+*.pth
+
+# Datos (los .nii.gz no van al repo)
+*.nii.gz
+*.nii
+
+# Figuras generadas
+figures/
+
